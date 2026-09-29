@@ -14,5 +14,6 @@ public class Exercicio_2 {
         num3 = input.nextInt();
 
         System.out.println("A media aritmética desses numeros: " + (num1 + num2 + num3) / 3);
+        input.close();
     }
 }

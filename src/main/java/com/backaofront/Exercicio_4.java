@@ -13,5 +13,6 @@ public class Exercicio_4 {
         f = c * 9 / 5 + 32;
 
         System.out.println("Convertido para fahrenheit: " + f);
+        input.close();
     }
 }

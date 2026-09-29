@@ -13,5 +13,6 @@ public class Exercicio_5 {
         altura = input.nextInt();
 
         System.out.println("A área do seu triangulo é de: " + (base * altura) /2);
+        input.close();
     }
 }

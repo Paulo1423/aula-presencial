@@ -16,5 +16,6 @@ public class Main{
        num4 = input.nextInt();
 
         System.out.println("A soma de todos juntos: " + (num1 + num2 + num3 + num4));
+        input.close();
         }
     }

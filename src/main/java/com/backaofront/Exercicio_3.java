@@ -13,5 +13,6 @@ public class Exercicio_3 {
         double total = aumento + salario;
 
         System.out.printf("Seu salario se ajustou em: R$%.2f, com o salario total de R$%.2f",aumento, total);
+        input.close();
     }
 }
